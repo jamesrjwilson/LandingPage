@@ -25,15 +25,16 @@ body {
     font-weight: 500;
 }
 .introduction{
-	background-image: url("first-background.jpg");
+	background-image: url("https://github.com/jamesrjwilson/LandingPage/blob/master/images/first-background.jpg");
 	background-position: center bottom;
     background-repeat: no-repeat;
     background-size: cover;
     height: 45.938rem;
 }
-.big-button {
+.button {
     text-shadow: none;
     border-style: none;
+    background-color: orange;
     border-radius: 4px;
     padding: 16px 26px;
     line-height: 1.33;
