@@ -1,14 +1,48 @@
 body {
     background-color: White;
+    text-align: center;
 }
-.content{max-width: 70em; 
-	margin-left: auto; 
-	margin-right: auto;
-	padding:1em;
+.top-navigation > .content, .h1,.h3{width: 970px; height: 70px; margin: 0 auto; padding: 0px 15px;}
+
+.top-navigation .links {
+    float: right;
+    font-family: 'Roboto', sans-serif;
+    color: #838994;
+    font-size: 16px;
+    margin-top: 25px;
+    -webkit-font-smoothing: antialiased;
 }
-.links >ul,li{display: inline-block; padding: 0em .5em;}
-.links{text-align: right;
-margin-right: 17em;
-font-size: .8em;
-vertical-align: center;
+.top-navigation .links li {
+    display: inline-block;
+    margin-left: 50px;
+}
+.top-navigation .links li:hover {
+    cursor: pointer;
+    color: #333333;
+}
+.top-navigation .links .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+.introduction{
+	background-image: url("first-background.jpg");
+	background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 45.938rem;
+}
+.big-button {
+    text-shadow: none;
+    border-style: none;
+    border-radius: 4px;
+    padding: 16px 26px;
+    line-height: 1.33;
+}
+.big-button:hover {
+    cursor: pointer;
+    color: #000000;
+}
+.big-button .active {
+    color: #000000;
+    font-weight: 500;
 }
